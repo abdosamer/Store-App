@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">InventoryApp</string>
+    <string name="action_bills">Bills</string>
+    <string name="quantity_text_view">quantity </string>
+    <string name="action_logs">Logs</string>
+    <string name="editor_activity_title_add_product">Add Product</string>
+    <string name="editor_activity_title_edit_product">Edit Product</string>
+    <string name="sell_text_view">Sell</string>
+    <string name="action_add_product">Add Product</string>
+    <string name="name_of_the_product">name of the product</string>
+    <string name="name_title">name</string>
+    <string name="price_title">price</string>
+    <string name="price_hint">15 $</string>
+    <string name="code_title">code</string>
+    <string name="code_hint">1245687</string>
+    <string name="quantity_limit">quantity_limit</string>
+    <string name="save">Save</string>
+    <string name="this_field_is_required">this field is required</string>
+    <string name="this_field_cant_be_zero">this field can\'t be zero</string>
+
+    <string name="action_delete">Delete</string>
+    <string name="action_delete_all_product">Delete All</string>
+    <string name="add_product">Add product</string>
+    <string name="edit_product">Edit product</string>
+    <string name="profit_text_view">Profit</string>
+    <string name="action_add_log">Add Log</string>
+    <string name="loss">Loss</string>
+    <string name="profit">profit</string>
+    <string name="added">added</string>
+    <string name="losies">lossies</string>
+    <string name="total_price">total price </string>
+    <string name="name">name</string>
+    <string name="price">price</string>
+    <string name="action_add_bill">add bill</string>
+    <string name="action_delete_all_bills">Delete All Bills</string>
+    <string name="bill_uid">bill_uid</string>
+    <string name="bill_date">bill_date</string>
+    <string name="bill_product_price">bill_product_price</string>
+    <string name="bill_product_name">bill_product_name</string>
+    <string name="bill_product_quantity">bill_product_quantity</string>
+    <string name="bill_product_total_price">bill_product_total_price</string>
+    <string name="bill_total_price">bill_total_price</string>
+
+</resources>

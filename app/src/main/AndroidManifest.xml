@@ -9,10 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
-            android:launchMode="singleTop"
-            >
-
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,17 +19,24 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".EditorActivity"
-            android:theme="@style/EditorTheme"
+            android:name=".company.EditorActivity"
             android:parentActivityName=".MainActivity"
-            />
-        <activity android:name=".BillsActivity"
-            android:theme="@style/AppTheme"
-            android:parentActivityName=".MainActivity"/>
+            android:theme="@style/EditorTheme" />
         <activity
-            android:name=".LogsActivity"
-            android:theme="@style/EditorTheme"
-            android:parentActivityName=".MainActivity" />
+            android:name=".company.BillsActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".company.LogsActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/EditorTheme" />
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

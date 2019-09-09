@@ -18,25 +18,27 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.abdelrahman.www.inventoryapp.adapters.ProductAdapter;
+import com.abdelrahman.www.inventoryapp.company.BillsActivity;
+import com.abdelrahman.www.inventoryapp.company.EditorActivity;
+import com.abdelrahman.www.inventoryapp.company.LogsActivity;
 import com.abdelrahman.www.inventoryapp.data.InventoryContract;
 import com.abdelrahman.www.inventoryapp.data.InventoryViewModel;
 import com.abdelrahman.www.inventoryapp.data.InventoryContract.*;
 
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-import static com.abdelrahman.www.inventoryapp.EditorActivity.ACTIVITY_ADD_TAG;
-import static com.abdelrahman.www.inventoryapp.EditorActivity.ACTIVITY_EDIT_DELETE_TAG;
-import static com.abdelrahman.www.inventoryapp.EditorActivity.ACTIVITY_EDIT_TAG;
-import static com.abdelrahman.www.inventoryapp.EditorActivity.EDITOR_ACTIVITY;
-import static com.abdelrahman.www.inventoryapp.EditorActivity.PRODUCT_CODE_KEY;
-import static com.abdelrahman.www.inventoryapp.EditorActivity.PRODUCT_ID_KEY;
-import static com.abdelrahman.www.inventoryapp.EditorActivity.PRODUCT_NAME_KEY;
-import static com.abdelrahman.www.inventoryapp.EditorActivity.PRODUCT_PRICE_KEY;
-import static com.abdelrahman.www.inventoryapp.EditorActivity.PRODUCT_QUANTITY_DIFF_KEY;
-import static com.abdelrahman.www.inventoryapp.EditorActivity.PRODUCT_QUANTITY_KEY;
-import static com.abdelrahman.www.inventoryapp.EditorActivity.PRODUCT_QUANTITY_LIMIT_KEY;
+import static com.abdelrahman.www.inventoryapp.company.EditorActivity.ACTIVITY_ADD_TAG;
+import static com.abdelrahman.www.inventoryapp.company.EditorActivity.ACTIVITY_EDIT_DELETE_TAG;
+import static com.abdelrahman.www.inventoryapp.company.EditorActivity.ACTIVITY_EDIT_TAG;
+import static com.abdelrahman.www.inventoryapp.company.EditorActivity.EDITOR_ACTIVITY;
+import static com.abdelrahman.www.inventoryapp.company.EditorActivity.PRODUCT_CODE_KEY;
+import static com.abdelrahman.www.inventoryapp.company.EditorActivity.PRODUCT_ID_KEY;
+import static com.abdelrahman.www.inventoryapp.company.EditorActivity.PRODUCT_NAME_KEY;
+import static com.abdelrahman.www.inventoryapp.company.EditorActivity.PRODUCT_PRICE_KEY;
+import static com.abdelrahman.www.inventoryapp.company.EditorActivity.PRODUCT_QUANTITY_DIFF_KEY;
+import static com.abdelrahman.www.inventoryapp.company.EditorActivity.PRODUCT_QUANTITY_KEY;
+import static com.abdelrahman.www.inventoryapp.company.EditorActivity.PRODUCT_QUANTITY_LIMIT_KEY;
 
 
 public class MainActivity extends AppCompatActivity {

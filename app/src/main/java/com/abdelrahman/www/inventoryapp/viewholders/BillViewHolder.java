@@ -15,9 +15,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.abdelrahman.www.inventoryapp.BillsActivity;
 import com.abdelrahman.www.inventoryapp.R;
-import com.abdelrahman.www.inventoryapp.adapters.BillsAdapter;
 import com.abdelrahman.www.inventoryapp.adapters.BillsItemAdapter;
 import com.abdelrahman.www.inventoryapp.data.InventoryContract.BillsItemEntry;
 import com.abdelrahman.www.inventoryapp.data.InventoryContract.BillsEntry;

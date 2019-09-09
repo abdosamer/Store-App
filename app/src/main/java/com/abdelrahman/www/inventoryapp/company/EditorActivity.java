@@ -1,15 +1,16 @@
-package com.abdelrahman.www.inventoryapp;
+package com.abdelrahman.www.inventoryapp.company;
 
 import android.content.Intent;
-import android.opengl.Visibility;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.NumberPicker;
 import android.widget.TextView;
+
+import com.abdelrahman.www.inventoryapp.MainActivity;
+import com.abdelrahman.www.inventoryapp.R;
 
 public class EditorActivity extends AppCompatActivity {
 

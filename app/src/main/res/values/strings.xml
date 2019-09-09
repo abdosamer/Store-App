@@ -41,4 +41,7 @@
     <string name="bill_product_total_price">bill_product_total_price</string>
     <string name="bill_total_price">bill_total_price</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

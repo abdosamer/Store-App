@@ -1,4 +1,4 @@
-package com.abdelrahman.www.inventoryapp;
+package com.abdelrahman.www.inventoryapp.company;
 
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
@@ -12,6 +12,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.abdelrahman.www.inventoryapp.R;
 import com.abdelrahman.www.inventoryapp.adapters.BillsAdapter;
 import com.abdelrahman.www.inventoryapp.adapters.LogAdapter;
 import com.abdelrahman.www.inventoryapp.data.InventoryContract.BillsEntry;
